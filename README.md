@@ -1,4 +1,4 @@
-##Lab 36: Message Queues
+## Lab 36: Message Queues
 ####  Create 3 standard queues in AWS
 ```
 QueueA
@@ -17,4 +17,5 @@ send()
 
 #### Resources
 Group programming with whole class
+  
 https://github.com/awsdocs/aws-doc-sdk-examples/blob/master/java/example_code/sqs/src/main/java/aws/example/sqs/SendReceiveMessages.java
