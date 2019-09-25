@@ -19,3 +19,25 @@ send()
 Group programming with whole class
   
 https://github.com/awsdocs/aws-doc-sdk-examples/blob/master/java/example_code/sqs/src/main/java/aws/example/sqs/SendReceiveMessages.java
+
+## Lab: SQS & Lambda
+##### Resources
+* https://docs.aws.amazon.com/lambda/latest/dg/with-sqs-create-package.html
+  
+Classmate: Nicholas Paro 
+#### Featured Taks:
+* Created Lambda function that is triggered by each of the 3 Queues.
+* Wrote the handleRequest function in JAVA
+#### Methods
+```
+handleRequest()
+
+Lambda function:
+SQSPuller
+```
+#### Test:
+* Cloudwatch Logs 
+![Cloud Watch Logs](assets/Cloudwatch_Log.png)
+
+* Lambda Monitoring 
+![Lambda Monitoring](assets/Lambda_Monitoring.png)
